@@ -5,6 +5,7 @@ function click(){
 
 function renderPets(){
     let ul=document.querySelector('.container-cards')
+    ul.innerText=''
     cont=0
 
     pets.forEach(el=>{
@@ -24,7 +25,7 @@ function renderPets(){
 
     })
     let contador=document.querySelector('.span-counter')
-    
+    contador.innerText=cont
     console.log(cont)
 }
 
